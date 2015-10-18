@@ -1,0 +1,20 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Dependency list for node build process.",
+  "author": "",
+  "license": "ad",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "jasmine-node": "^1.14.5",
+    "jquery": "^2.1.4",
+    "requirejs": "^2.1.19",
+    "nightwatch": "0.7.11",
+    "gulp-props": "1.2.0",
+    "handlebars": "3.0.3",
+    "yamljs": "0.2.3",
+    "mkdirp": "0.5.1",
+    "gulp-util": "3.0.0"
+  }
+}

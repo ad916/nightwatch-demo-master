@@ -1,0 +1,134 @@
+{
+  "src_folders" : ["../nightwatch-demo-master/tests/testcases"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "../nightwatch-demo-master/tests/custom_commands/",
+  "custom_assertions_path" : "",
+  "page_objects_path" : "",
+  "globals_path" : "",
+
+  "selenium" : {
+    "start_process" : true,
+    "server_path" : "selenium-server-standalone-2.47.1.jar",
+    "log_path" : "",
+    "host" : "127.0.0.1",
+    "port" : 4444,
+    "cli_args" : {
+      "webdriver.chrome.driver" : "",
+      "webdriver.ie.driver" : ""
+    }
+  },
+
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : "reports/screenshots"
+      },
+
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+
+    "firefoxx" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+
+    "iphone" : {
+      "launch_url" : "http://127.0.0.1:4723/wd/hub",
+      "selenium_port"  : 4723,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : true,
+        "path" : ""
+      },
+      "desiredCapabilities": {
+      "deviceName" : "iPhone 6",
+      "platformName" : "ios",
+      "platformVersion" : "8.4",
+      "browserName" : "safari",
+      "newCommandTimeout" : "3600",
+      "fullReset" : true
+      }
+    },
+
+
+
+    "crossbrowser_iPhone":{
+      "selenium_host": "hub.crossbrowsertesting.com",
+      "selenium_port": 80,
+      "desiredCapabilities": {
+        "browser_api_name": "iPhone 6 / 8.1 Simulator",
+        "os_api_name": "MblSafari8.0",
+        "browserName": "MblSafari8.0",
+        "username": "Youremail@domain.com",
+        "password": "YourPAsswordORAPIkey",
+        "record_video": true,
+        "record_snapshot": true
+      }
+    },
+
+    "crossbrowser_android":{
+      "selenium_host": "hub.crossbrowsertesting.com",
+      "selenium_port": 80,
+      "desiredCapabilities": {
+        "browser_api_name": "Nexus5-And44",
+        "os_api_name": "Android Nexus 5 / 4.4",
+        "browserName": "android",
+        "username": "Youremail@domain.com",
+        "password": "YourPAsswordORAPIkey",
+        "record_video": true,
+        "record_snapshot": true
+      }
+    },
+
+
+
+
+    "chrome" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+
+
+    "safari" : {
+      "desiredCapabilities": {
+        "browserName": "safari",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
+
+    "firefox" : {
+      "desiredCapabilities": {
+        "browserName": "firefox",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    }
+
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="search_item"
+    errors="0" failures="1" hostname="" id="" package="custom_commands" skipped="0"
+    tests="1" time="0.000" timestamp="Sun, 18 Oct 2015 04:56:23 GMT">
+  
+    <testcase name="command" time="0.01200" assertions="0">
+    </testcase>
+      <system-err>
+         ERROR: Unable to locate element: &quot;#search&quot; using: css selector
+ ERROR: Unable to locate element: &quot;#search&quot; using: css selector
+ ERROR: Unable to locate element: &quot;//*[@id=&quot;top&quot;]/div[3]/div/div/div/div/div[3]/form/div/div[3]/button&quot; using: xpath
+ ERROR: Unable to locate element: &quot;//*[@id=&quot;tile-container&quot;]/div[1]/a/img&quot; using: xpath
+ ERROR: Unable to locate element: &quot;button[id=WMItemAddToCartBtn]&quot; using: css selector
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
