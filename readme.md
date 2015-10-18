@@ -3,12 +3,14 @@
 
 Which Framework : Nightwatch (http://nightwatchjs.org)
 
+
 How do I install : clone git repo & run npm install which will add all dependencies
+
 
 
 How do I run Tests : nightwatch -e chrome,safari,iphone,crossbrowser_iPhone,crossbrowser_android
 
- -Yes it can run test parallely. Any string starting with crossbrowser will run your test in cloud similar like saucelab
+  -Yes it can run test parallely. Any string starting with crossbrowser will run your test in cloud similar like saucelab
 
  -iPhone profile will test on your local machine using appium
 
