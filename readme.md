@@ -53,5 +53,5 @@ Tradeoff / More Time:
 
     I have used pause event which is similar like wait. I can replace with waitForelementPresent method
 
-
+  If time permitted, I would also have generlized few methods to make test very reusable, less verbose & easy to read.
 
