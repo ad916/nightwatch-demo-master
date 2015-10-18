@@ -1,5 +1,6 @@
 # demo-test
 
+Overall : The purpose of this to show test cases along with a framework capabilities. 
 
 Which Framework : Nightwatch (http://nightwatchjs.org)
 
