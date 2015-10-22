@@ -1,4 +1,4 @@
-@@ -0,0 +1,95 @@
+
 var automationIdList = {
     search_button : "//*[@id='top']/div[3]/div/div/div/div/div[3]/form/div/div[3]/button",
     select_first_item : "//*[@id='tile-container']/div[1]/a/img",
